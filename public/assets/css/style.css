@@ -1,7 +1,25 @@
+body {
+    background-color: rgb(255, 188, 64);
+}
+
+* {
+    padding: 0;
+    text-align: center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
+  width: 90%;
   background: #faebd7;
+  list-style-type: none;
+  display: inline-block
+}
+
+li button {
+    height: 30px;
+    width: 50%;
+    float: left;
 }
 
 .label {
@@ -16,4 +34,27 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    height: 100%;
+    width: 70%;
+
+    clear: both;
+    display: table;
+}
+
+.available-food {
+    float: left;
+    width: 50%
+}
+
+.eaten-food{
+    float: right;
+    width: 50%
+}
+
+.order-form{
+    display: inline-block;
 }
