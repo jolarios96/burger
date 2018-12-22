@@ -1,10 +1,13 @@
-<h1>Hamburgers!</h1>
+<div>
+    <h1>Hamburgers!</h1>
+</div>
 
 <div class='wrapper'>
     <div class='available-food'>
-        <h2>Burgers on the Table!</h2>
-
         <ul>
+            <div class='header-label'>
+                <h2>Burgers on the Table!</h2>
+            </div>
             {{#each burgers}}
             {{#unless eaten}}
             {{> burgers/hamburger-block ate=true}}
@@ -14,9 +17,10 @@
     </div>
 
     <div class='eaten-food'>
-        <h2>Burgers in your belly!</h2>
-
         <ul>
+            <div class='header-label'>
+                <h2>Burgers in your belly!</h2>
+            </div>
             {{#each burgers}}
             {{#if eaten}}
             {{> burgers/hamburger-block ate=false}}
