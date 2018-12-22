@@ -1,6 +1,8 @@
 # burger
 
-This is an app deployed on Heroku that makes use of MySQL.
+This is an app deployed on Heroku that uses MySQL as a database.
+It uses express, and express-handlebars to communicate with the various files and the database,
+notably, the connection, controller, and model js files, and the orm.js used to communicate with the database.
 
 # Usage:
  - Submit an ingredient name to turn it into a burger!
@@ -10,4 +12,4 @@ This is an app deployed on Heroku that makes use of MySQL.
 
 # TODO:
  - The UI is currently very basic, and I am planning to update it more in the future.
- - Will add pictures to readme once that is done.
+ - Will add pictures to the readme once that is done.
